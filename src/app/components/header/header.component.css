@@ -1,0 +1,44 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: flex;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.menu-mobile{
+  display: none;
+}
+
+
+/* mobile */
+
+@media (max-width:600px) {
+
+
+  .menu-mobile{
+    display: flex;
+    padding: 10px;
+  }
+
+  .btn-menu-mobile{
+    font-size: 20px;
+  }
+
+
+  .menu{
+    display: none;
+  }
+
+}
