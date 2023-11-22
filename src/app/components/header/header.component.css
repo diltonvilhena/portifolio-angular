@@ -1,7 +1,15 @@
+.menu-layout{
+  background-color: #3498db;
+  color:  #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
   flex-wrap: wrap;
 }
 
@@ -24,12 +32,13 @@
 
 /* mobile */
 
-@media (max-width:600px) {
+@media (max-width:640px) {
 
 
   .menu-mobile{
     display: flex;
-    padding: 10px;
+    background-color: #3498db;
+    color:  #ffffff;
   }
 
   .btn-menu-mobile{
