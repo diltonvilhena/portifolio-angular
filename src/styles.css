@@ -1,4 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+:root {
+  --background-site: #6e07f3;
+  --text-white: #ffffff;
+  --text-black: #000000;
+}
+
+a {
+  color: var(--text-white);
+}
+
+a:hover {
+  color: var(--text-black);
+  text-decoration: underline;
+}

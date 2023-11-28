@@ -1,23 +1,23 @@
 <div class="menu-mobile">
   <button class="btn-menu-mobile" mat-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon></button>
   <mat-menu #menu="matMenu">
-    <button mat-menu-item>Sobre mim</button>
+    <a href="#about"><button mat-menu-item>Sobre mim</button></a>
     <button mat-menu-item>Projetos</button>
     <button mat-menu-item>Contato</button>
   </mat-menu>
 </div>
 
-<div class="menu-layout">
+<div id="header" class="menu-layout">
   <nav class="menu">
     <div class="menu-nav">
-      <a class="menu-item"><mat-icon fontIcon="code"></mat-icon></a>
+      <a href="#main" class="menu-item"><mat-icon fontIcon="code"></mat-icon></a>
     </div>
     <div class="menu-nav">
 
-      <a class="menu-item">Sobre mim</a>
-      <a class="menu-item">Projetos</a>
-      <a class="menu-item">Experiências</a>
-      <a class="menu-item">Contato</a>
+      <a href="#about" class="menu-item">Sobre mim</a>
+      <a href="#projects"  class="menu-item">Projetos</a>
+      <a href="#works" class="menu-item">Experiências</a>
+      <a href="#contact" class="menu-item">Contato</a>
     </div>
   </nav>
 </div>

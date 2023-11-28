@@ -1,7 +1,7 @@
 .layout-container {
   display: flex;
   width: auto;
-  height: 600px;
+  height: 500px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -10,8 +10,21 @@
 
 .content-container{
   display: flex;
+  flex-direction: column;
   width: 80%;
   justify-content: center;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icons-social{
+  width: 35px;
+  height: 35px;
+  margin: 10px;
 }
 
 .text-title {

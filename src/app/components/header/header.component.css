@@ -1,6 +1,6 @@
 .menu-layout{
-  background-color: #3498db;
-  color:  #ffffff;
+  background-color: var(--background-site);
+  color:  var(--text-white);
   display: flex;
   justify-content: center;
 }
@@ -34,20 +34,21 @@
 
 @media (max-width:640px) {
 
-
   .menu-mobile{
     display: flex;
-    background-color: #3498db;
-    color:  #ffffff;
+    background-color: var(--background-site);
+    color:  var(--color-text);
   }
-
-  .btn-menu-mobile{
-    font-size: 20px;
-  }
-
 
   .menu{
     display: none;
+  }
+
+  .btn-menu-mobile mat-icon{
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    margin: 10px;
   }
 
 }
