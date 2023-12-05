@@ -1,0 +1,72 @@
+.section{
+  display: flex;
+  height: 600px;
+  width: auto;
+  justify-content: center;
+}
+
+.content-section{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.container-projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-project{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  flex-direction: column;
+  margin: 20px;
+  border: 1px solid var(--background-site);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.img-card{
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;  max-width: 300px;
+  width: 300px;
+  max-height: 150px;
+}
+
+.title-card, .description-card{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+
+.logo-git{
+  display: flex;
+  height: 25px;
+  width: 25px;
+}
+
+
+.logo-youtube{
+  display: flex;
+  height: 25px;
+  width: 25px;
+}
