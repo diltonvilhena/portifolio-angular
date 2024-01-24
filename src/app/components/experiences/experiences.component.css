@@ -1,0 +1,13 @@
+.experiences{
+  display: flex;
+  background-color: var(--background-site);
+  height: 500px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-container{
+  width: 80%;
+  max-width: 1500px;
+  color: var(--text-white);
+}

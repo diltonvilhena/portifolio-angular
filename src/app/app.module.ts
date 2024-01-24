@@ -11,6 +11,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainComponent } from './components/main/main.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ExperiencesComponent } from './components/experiences/experiences.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { CardProjectComponent } from './components/projects/card-project/card-project.component';
 
 
 @NgModule({
@@ -20,6 +24,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
     MainComponent,
     AboutComponent,
     ProjectsComponent,
+    ExperiencesComponent,
+    ContactComponent,
+    SkillsComponent,
+    CardProjectComponent,
   ],
   imports: [
     BrowserModule,
