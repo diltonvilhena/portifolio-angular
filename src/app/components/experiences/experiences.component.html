@@ -1,5 +1,29 @@
-<section id="experiences" class="experiences">
-  <div class="content-container">
-    <p>experiences works!</p>
+<section id="experiences" class="section">
+  <div class="content-section">
+    <h1 class="title-section">Experiências</h1>
+
+    <!-- Linha do Tempo Horizontal -->
+    <div class="timeline">
+      <div
+        class="timeline-item"
+        *ngFor="let experience of experiences"
+        (click)="openModal(experience)"
+      >
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="timeline-title">{{ experience.title }}</h3>
+          <p class="timeline-date">{{ experience.date }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
+<!-- Modal de Detalhes -->
+<div class="modal" [ngClass]="{'show': isModalVisible}">
+  <div class="modal-content">
+    <button class="close-btn" (click)="closeModal()">×</button>
+    <h2>{{ selectedExperience.title }}</h2>
+    <p [innerHTML]="selectedExperience.description"></p>
+  </div>
+</div>
