@@ -1,39 +1,81 @@
-.container-skills{
+.container-skills {
   display: flex;
   height: auto;
   min-height: 300px;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.content-container{
+.box-content-container{
   width: 80%;
+}
+
+.content-container {
+  width: 100%;
   max-width: 1500px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skill-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.skill-cards h3{
-  margin: 0px;
-  color: gray;
+.skill-cards:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.img-skills{
-  display: flex;
-  flex-direction: row;
-  margin: 5px 30px;
+.skill-cards h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.img-skills {
   width: 70px;
   height: 70px;
+  margin: 5px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-skills {
+    width: 80px; /* Aumenta o tamanho da imagem no mobile */
+    height: 80px;
+  }
+
+  .skill-cards h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-skills {
+    width: 80px; /* Aumenta ainda mais no celular pequeno */
+    height: 80px;
+  }
 }

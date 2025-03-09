@@ -1,12 +1,15 @@
 <section id="skills" class="container-skills">
-  <div class="content-container">
+  <div class="box-content-container">
     <h2>Habilidades</h2>
 
-    <div class="container">
-      <div *ngFor="let skill of skills" class="skill-cards">
-        <img class="img-skills" [src]="skill.caminho" [alt]="skill.alt" />
-        <h3>{{ skill.titulo }}</h3>
+    <div class="content-container">
+      <div class="container">
+        <div *ngFor="let skill of skills" class="skill-cards">
+          <img [src]="skill.caminho" [alt]="skill.alt" class="img-skills">
+          <h3>{{ skill.titulo }}</h3>
+        </div>
       </div>
     </div>
   </div>
+
 </section>
