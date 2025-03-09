@@ -1,20 +1,22 @@
 .layout-container {
   display: flex;
-  width: auto;
-  height: 500px;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 40px 20px;
+  min-height: 500px;
+  justify-content: center;
   background-color: #ffffff;
+  text-align: center;
 }
 
-.content-container{
+.content-container {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  max-width: 1500px;
+  max-width: 900px;
+  width: 90%;
   justify-content: center;
 }
+
 
 .social-media{
   display: flex;
@@ -22,11 +24,18 @@
   justify-content: center;
 }
 
-.icons-social{
-  width: 35px;
-  height: 35px;
+.icons-social {
+  width: 40px;
+  height: 40px;
   margin: 10px;
+  transition: transform 0.3s ease-in-out;
 }
+
+.icons-social:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
 
 .text-title {
   margin: 10px 16px;
