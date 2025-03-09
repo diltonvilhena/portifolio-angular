@@ -1,0 +1,99 @@
+/* Definindo os estilos gerais para a seção de projetos */
+.container-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+/* Estilos para o card de cada projeto */
+.card-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  margin: 20px;
+  border: 1px solid var(--background-site);
+  border-radius: 15px; /* Bordas arredondadas */
+  overflow: hidden; /* Esconde os elementos que ultrapassam os limites do card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+.card-project:hover {
+  transform: translateY(-5px); /* Efeito de elevação */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Imagem do card */
+.img-card {
+  width: 50%;
+  height: 150px;
+  object-fit: cover; /* Cobre toda a área sem distorcer */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Estilos para o título do projeto */
+.title-card {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Descrição do projeto */
+.description-card {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Ícones sociais (GitHub e YouTube) */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-git, .logo-youtube {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.logo-git:hover, .logo-youtube:hover {
+  transform: scale(1.1); /* Leve aumento ao passar o mouse */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .card-project {
+    width: 250px; /* Diminui o tamanho dos cards para telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-project {
+    width: 200px; /* Ainda menor em telas muito pequenas */
+  }
+
+  .title-card {
+    font-size: 1.2rem; /* Ajusta o tamanho do título */
+  }
+
+  .description-card {
+    font-size: 0.9rem; /* Ajusta o tamanho da descrição */
+  }
+}

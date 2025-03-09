@@ -5,19 +5,11 @@
     [alt]="projeto.imagemAlt"
   />
   <h2 class="title-card">{{ projeto.titulo }}</h2>
-  <p class="description-card">
-    {{ projeto.descricao }}
-  </p>
+  <p class="description-card">{{ projeto.descricao }}</p>
 
   <div class="social-icons">
-    <a [href]="projeto.linkGitHub" target="_blank"
-      ><img class="logo-git" src="/assets/github.png" alt="logo github"
-    /></a>
-    <a [href]="projeto.linkYoutube" target="_blank"
-      ><img
-        class="logo-youtube"
-        src="/assets/youtube.png"
-        alt="logo youtube"
-    /></a>
+    <a [href]="projeto.linkGitHub" target="_blank" aria-label="GitHub">
+      <img class="logo-git" src="/assets/github.png" alt="logo github" />
+    </a>
   </div>
 </div>

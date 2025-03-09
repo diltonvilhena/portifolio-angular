@@ -2,8 +2,11 @@
   <div class="content-section">
     <h1 class="title-section">Projetos</h1>
 
-    <div  class="container-projects">
-      
+    <div class="container-projects">
+      <app-card-project
+        *ngFor="let projeto of projetos"
+        [projeto]="projeto">
+      </app-card-project>
     </div>
   </div>
 </section>

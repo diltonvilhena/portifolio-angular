@@ -6,7 +6,6 @@ interface Projeto {
   titulo: string;
   descricao: string;
   linkGitHub: string;
-  linkYoutube: string;
 }
 
 @Component({
@@ -22,9 +21,7 @@ export class CardProjectComponent {
     imagemAlt: '',
     titulo: '',
     descricao: '',
-    linkGitHub: '',
-    linkYoutube: ''
-
+    linkGitHub: ''
   }
 
 }
