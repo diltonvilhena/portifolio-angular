@@ -1,11 +1,114 @@
-.container-contact{
-  display: flex;
-  height: 500px;
-  flex-direction: row;
-  justify-content: center;
+/* Estilos gerais do rodapé */
+
+
+.contato-container {
+  text-align: center;
 }
 
-.content-container{
-  width: 80%;
-  max-width: 1500px;
+.sub-titulo {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6c757d;
+  text-transform: uppercase;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.contato-meios {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.contato img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.contato-texto h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.contato-texto a {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contato-texto a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos do rodapé */
+.rodape-bg {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+.rodape-container p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.redes-rodape {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.redes-rodape a img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .contato-meios {
+    flex-direction: column;
+  }
+
+  .contato {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sub-titulo {
+    font-size: 0.9rem;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rodape-container p {
+    font-size: 0.9rem;
+  }
 }
