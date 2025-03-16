@@ -1,27 +1,43 @@
-# PortifolioAngular
+# Portfólio Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+Bem-vindo ao meu portfólio! Este é um site pessoal que desenvolvi usando **Angular** para mostrar meus projetos e habilidades como desenvolvedor. Aqui você pode encontrar informações sobre mim, os projetos que desenvolvi, e muito mais.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: Framework principal para o desenvolvimento do front-end.
+- **TypeScript**: Linguagem usada para desenvolver a aplicação.
+- **HTML5 & CSS3**: Para estruturar e estilizar o site.
 
-## Code scaffolding
+## Como Rodar o Projeto Localmente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clonar o repositório**
 
-## Build
+   Se você quiser rodar este projeto localmente, comece clonando o repositório:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```bash
+   git clone https://github.com/SEU_USUARIO/portifolio-angular.git
 
-## Running unit tests
+2. **Instalar dependências**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Navegue até a pasta do projeto e instale as dependências:
+    
+    ```dependencias
+    cd portifolio-angular
+    npm install
 
-## Running end-to-end tests
+3. **Rodar o servidor de desenvolvimento**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para rodar o projeto localmente, execute: ng serve -- open
 
-## Further help
+Isso iniciará o servidor de desenvolvimento e você poderá acessar a aplicação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+**Deploy no GitHub Pages**
+
+Este portfólio está hospedado no GitHub Pages. Caso queira acessar diretamente, basta acessar o link:
+
+https://diltonvilhena.github.io/portifolio-angular
+
+
+**Contribuições**
+Se você encontrar algum problema ou quiser sugerir melhorias, sinta-se à vontade para abrir uma issue ou fazer um pull request.
