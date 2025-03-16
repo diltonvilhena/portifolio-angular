@@ -7,12 +7,15 @@ body {
 body {
   margin: 0;
   font-family: Roboto;
+  color:var(--background-header)
 }
 
 :root {
-  --background-site: #6e07f3;
+  --background-header: #2c3e50;
+  --background-site: #a4c2ee;
   --text-white: #ffffff;
   --text-black: #000000;
+
 }
 
 a {
