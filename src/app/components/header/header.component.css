@@ -1,5 +1,5 @@
 .menu-layout{
-  background-color: var(--background-site);
+  background-color: var(--background-header);
   color:  var(--text-white);
   display: flex;
   justify-content: center;
