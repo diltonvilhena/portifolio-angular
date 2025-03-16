@@ -1,5 +1,35 @@
 /* Estilos gerais do rodapé */
 
+.box-contato{
+  display: flex;
+  justify-content: center;
+  min-height: 200px;
+  width: 100%;
+}
+
+.contato{
+  min-height: 200px;
+}
+
+.content-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  flex-direction: column;
+
+}
+
+.title-section{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+
 
 .contato-container {
   text-align: center;
@@ -26,6 +56,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .contato {
@@ -46,6 +77,7 @@
   font-size: 1.1rem;
   color: #333;
   margin-bottom: 5px;
+  margin: 0px;
 }
 
 .contato-texto a {
@@ -110,5 +142,11 @@
 
   .rodape-container p {
     font-size: 0.9rem;
+  }
+
+  .contato{
+    min-height: 10px;
+    display: flex;
+    justify-content: flex-start;
   }
 }

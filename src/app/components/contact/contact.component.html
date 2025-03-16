@@ -1,7 +1,9 @@
-<div id="contato">
-  <div class="container contato-container">
-    <h3 class="titulo">Entre em contato comigo! 👇</h3>
+<div id="contato" class="box-contato">
+  <div class="content-section">
 
+
+  <h1 class="title-section">Entre em contato comigo!</h1>
+  <div class="container contato-container">
     <ul class="contato-meios">
       <li class="contato" *ngFor="let contato of contatos">
         <img [src]="'./assets/icons/' + contato.icon" [alt]="'Ícone ' + contato.tipo">
@@ -13,9 +15,5 @@
     </ul>
   </div>
 
-  <div class="rodape-bg">
-    <div class="container rodape-container">
-      <p>&copy; 2025 - Todos os direitos reservados.</p>
-    </div>
-  </div>
+</div>
 </div>
