@@ -27,17 +27,18 @@ Bem-vindo ao meu portfólio! Este é um site pessoal que desenvolvi usando **Ang
 
 3. **Rodar o servidor de desenvolvimento**
 
-Para rodar o projeto localmente, execute: ng serve -- open
+    Para rodar o projeto localmente, execute: ng serve -- open
 
-Isso iniciará o servidor de desenvolvimento e você poderá acessar a aplicação
+    Isso iniciará o servidor de desenvolvimento e você poderá acessar a aplicação
 
 
 **Deploy no GitHub Pages**
 
-Este portfólio está hospedado no GitHub Pages. Caso queira acessar diretamente, basta acessar o link:
+    Este portfólio está hospedado no GitHub Pages. Caso queira acessar diretamente, basta acessar o link:
 
-https://diltonvilhena.github.io/portifolio-angular
+    https://diltonvilhena.github.io/portifolio-angular
 
 
 **Contribuições**
-Se você encontrar algum problema ou quiser sugerir melhorias, sinta-se à vontade para abrir uma issue ou fazer um pull request.
+    
+    Se você encontrar algum problema ou quiser sugerir melhorias, sinta-se à vontade para abrir uma issue ou fazer um pull request.
