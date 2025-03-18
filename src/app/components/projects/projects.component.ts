@@ -9,11 +9,10 @@ export class ProjectsComponent {
   projetos = [
     {
       imagemSrc: '/assets/icons/java.png',
-      imagemAlt: 'Em produção',
-      titulo: 'Em produção',
-      descricao: 'Descrição do projeto',
-      linkGitHub: 'https://github.com/projeto1',
+      imagemAlt: 'Task Manager',
+      titulo: 'Task Manager',
+      descricao: 'Um sistema de gerenciamento de tarefas desenvolvido com Spring Boot e H2 Database',
+      linkGitHub: 'https://github.com/diltonvilhena/task-manager',
     },
      ];
-
 }
